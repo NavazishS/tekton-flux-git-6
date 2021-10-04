@@ -16,6 +16,7 @@ rules:
   - triggertemplates
   - triggers
   - clusterinterceptors
+  - pods
   verbs:
   - get
   - list
@@ -57,6 +58,7 @@ rules:
   - triggertemplates
   - triggers
   - clusterinterceptors
+  - pods
   verbs:
   - get
   - list
