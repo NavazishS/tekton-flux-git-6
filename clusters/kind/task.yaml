@@ -12,5 +12,5 @@ spec:
       image: bitnami/kubectl
       script: |
         echo "----Start Get POD status Test Function---"
-        kubectl get po -A | grep Running
+        kubectl get po -n default| grep Running
         echo "----End Get---"
