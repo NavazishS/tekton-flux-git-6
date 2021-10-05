@@ -25,6 +25,8 @@ rules:
   - ""
   resources:
   - configmaps
+  - clusterinterceptors
+  - pods
   verbs:
   - get
   - list
@@ -35,6 +37,8 @@ rules:
   - pipelineruns
   - pipelineresources
   - taskruns
+  - clusterinterceptors
+  - pods
   verbs:
   - create
 - apiGroups:
@@ -69,6 +73,8 @@ rules:
   - pipelineruns
   - pipelineresources
   - taskruns
+  - clusterinterceptors
+  - pods
   verbs:
   - create
 ---
